@@ -1,0 +1,46 @@
+.contenedor-icono-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border: 1px solid #20313d;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30vw;
+    padding: .5rem;
+    color: #20313d;
+}
+
+.precio-total {
+    border: 1px solid #20313d;
+    width: 30vw;
+    margin: 1.5rem auto;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.btn-seguir-comprando {
+    margin: 1rem;
+    padding: .5rem;
+    border: 1px solid #20313d;
+    border-radius: .5rem;
+    background-color: #7a7e81;
+}
+
+.btn-finalizar-compra {
+    margin: 1rem;
+    padding: .5rem;
+    border: 1px solid #20313d;
+    border-radius: .5rem;
+    background-color: #4DA07D;
+}
+
+.btn-limpiar-carrito {
+    margin: 1rem;
+    padding: .5rem;
+    border: 1px solid #20313d;
+    border-radius: .5rem;
+    background-color: #BB2532;
+}

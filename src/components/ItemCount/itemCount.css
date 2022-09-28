@@ -1,0 +1,24 @@
+.contador-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 0;
+    gap: 2rem;
+}
+.contador-btn {
+    font-size: 1rem;
+    border-radius: 7px;
+}
+
+.contador-btn-agregar {
+    background-color: #7a7e81;
+    padding: .6rem;
+    display: inline-block;
+    border-radius: .6rem;
+    color: #d8d8d8;
+}
+.contador-btn-agregar:hover {
+    background-color: #d8d8d8;
+    color: #7a7e81;
+    transition: .5s;
+}

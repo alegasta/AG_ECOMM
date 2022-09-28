@@ -1,0 +1,15 @@
+.titulo-carrito-vacio {
+    font-size: 3rem;
+}
+
+.contenedor-carrito-vacio {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.link-ver-productos {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,27 @@
+.lista-detalle {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1rem;
+}
+
+.btn-detalle {
+    background-color: #7a7e81;
+    padding: .6rem;
+    display: inline-block;
+    border-radius: .6rem;
+    color: #d8d8d8;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.btn-detalle:hover {
+    background-color: #d8d8d8;
+    color: #7a7e81;
+    transition: .5s;
+}
+
+.precio-detalle {
+    font-size: 1.4rem;
+    font-weight: 600;
+}

@@ -1,0 +1,27 @@
+.contenedor-item-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #20313d;
+}
+.img-item-cart {
+    height: 30vh;
+}
+
+.icono-eliminar-producto {
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    background-color: #BB2532;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-eliminar-producto:hover {
+    transform: scale(1.2,1.2);
+    transition: ease-in-out .3s;
+}

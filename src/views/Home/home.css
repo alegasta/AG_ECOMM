@@ -1,0 +1,35 @@
+.bg-color {
+    background-color: #ffffff;
+    height: 80%;
+    
+}
+.bg-color h1{
+    color: #fff;
+    letter-spacing: .7rem;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-family: 'Nunito' ;
+    color: #3d4441;
+}
+
+/* .bg-color img {
+    width: 70vw;
+    height: 90vh;
+} */
+
+/* .img-carousel {
+    border-radius: 1rem;
+} */
+
+.parrafo-home {
+    color: #3d4441;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+/* .contenedor-carrusel {
+    width: 90%;
+    margin: 0px;
+} */
+
+
