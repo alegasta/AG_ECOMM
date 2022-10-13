@@ -1,0 +1,45 @@
+.contacto-titulo {
+    font-size: 4rem;
+    margin-top: 1rem;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+    color: #20313d;
+}
+.contacto-parrafo {
+    font-size: 2rem;
+}
+.contacto-lista {
+    list-style-type: none;
+}
+.contacto-elemento-lista {
+    font-size: 1.5rem;
+}
+.contacto-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacto-elementos {
+    margin: 1rem;
+    padding: .7rem;
+    width: 30vw;
+    border-radius: .7rem;
+}
+
+.contacto-btn {
+    padding: .7rem;
+    width: 30vw;
+    border: none;
+    border-radius: .7rem;
+    background-color: #20313d;
+    color: #4DA07D;
+    margin: 1rem;
+}
+
+.contacto-btn:hover {
+    background-color: #4DA07D;
+    color: #20313d;
+    transition: .5s;
+}

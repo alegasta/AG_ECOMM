@@ -1,0 +1,14 @@
+.volver-home-btn {
+    background-color: #4DA07D;
+    color: #20313d;
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+.contenedor-btn-volver-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}

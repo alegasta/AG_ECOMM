@@ -9,11 +9,11 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 //VISTAS
 import Home from './views/Home/Home';
-import Productos from './views/Productos/Productos';
 import About from './views/About/About';
 import Contact from './views/Contact/Contact';
 import ProductDetail from './views/ProductDetail/ProductDetail';
 import Carrito from './views/Carrito/Carrito';
+import Shop from './views/Shop/Shop';
 
 
 function App() {
@@ -24,11 +24,12 @@ function App() {
         <CartProvider>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/productos' element={<Productos />} />
+            <Route path='/categoria/:categoriaId' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/detail/:id' element={<ProductDetail />} />
+            <Route path='/detail/:detalleId' element={<ProductDetail />} />
             <Route path='/carrito' element={<Carrito />} />
+            <Route path='/shop' element={<Shop />} />
           </Routes> 
         </CartProvider>     
       </div>

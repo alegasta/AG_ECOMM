@@ -1,0 +1,45 @@
+.shop-background {
+    background-color: #20313d;
+    height: 100vh;
+
+}
+.shop-titulo {
+    color: #4DA07D;
+}
+.shop-subtitulo {
+    color: #ddd;
+}
+
+.shop-contenedor-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 3rem;
+    min-width: 40vw;
+    border-radius: .7rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.shop-item {
+    min-width: 30vw;
+    margin: .7rem;
+    padding: .7rem;
+    border-radius: .6rem;
+    border: solid 1px #4DA07D;
+}
+
+.shop-btn {
+    padding: .6rem 1.4rem;
+    border: solid 1px #4DA07D;
+    border-radius: .6rem;
+    background-color: #20313d;
+    color: #4DA07D;
+    margin-top: .5rem;
+}
+.shop-btn:hover {
+    background-color: #4DA07D;
+    color: #20313d;
+    transition: .6s;
+}

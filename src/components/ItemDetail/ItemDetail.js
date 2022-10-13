@@ -18,7 +18,7 @@ const ItemDetail = ({info}) => {
   return (
     <div className='row container mx-auto my-4'>
         <div className='col-md-6 my-auto'>
-            <img src={info.imagen} alt={info.producto} className='img-fluid' />
+            <img src={info.img} alt={info.producto} className='img-fluid' />
         </div>
         <div className='col-md-6 my-auto'>
             <h3 className='text-uppercase'>{info.producto}</h3>
@@ -26,15 +26,16 @@ const ItemDetail = ({info}) => {
             <div className='lista-detalle'>
                 <p>Marca: {info.marca}</p>
                 <p>Modelo: {info.modelo}</p>
-                <p className='precio-detalle'>Precio: ${info.precio}.-</p>
+                <p>Stock: {info.stock}</p>
+                <h5 className='precio-detalle'>Precio: ${info.precio}</h5>
             </div>
             {
               goToCart ? <div>
                 <Link to='/carrito' className='btn-detalle mb-3 mx-2'>Terminar compra</Link>
-                <Link to='/productos' className='btn-detalle mb-3 mx-2'>Ver más productos</Link>
+                <Link to='/' className='btn-detalle mb-3 mx-2'>Ver más productos</Link>
                 </div> 
                 : 
-                <ItemCount initial={1} stock={6} onAdd = {onAdd} />
+                <ItemCount initial={1} stock={info.stock} onAdd = {onAdd} />
             }
         </div>
     </div>
