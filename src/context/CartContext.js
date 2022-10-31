@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react'
+import React, {useState, useContext, useEffect} from 'react'
 import ItemCart from '../components/ItemCart/ItemCart';
 
 
@@ -7,8 +7,16 @@ export const useCartContext = () => useContext(CartContext);
 
 const CartProvider = ({children}) => {
 
-    const [cart, setCart] = useState([]);
+    const cartLS = JSON.parse(localStorage.getItem('cart')|| '[]');
+    
+    const [cart, setCart] = useState(cartLS);
 
+    useEffect(()=> {
+        localStorage.setItem('cart', JSON.stringify(cart));
+    }, [cart]);
+    
+    
+    
     //Función para eliminar todos los productos del carrito
     const clearCart = () => setCart([]);
 
@@ -37,6 +45,8 @@ const CartProvider = ({children}) => {
     const productosCarrito = () => cart.map((product)=> (
         <ItemCart key={product.id} product={product} />
     ) )
+
+
 
   return (
     <CartContext.Provider value={{

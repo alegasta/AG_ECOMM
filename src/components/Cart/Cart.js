@@ -36,7 +36,6 @@ const Cart = () => {
           </Link>
           <button className='btn-limpiar-carrito' onClick={clearCart}>Limpiar carrito</button>
         </div>
-
       </div>
 
     )

@@ -1,13 +1,13 @@
 .shop-background {
-    background-color: #20313d;
+    background-color: #ffffff;
     height: 100vh;
 
 }
 .shop-titulo {
-    color: #4DA07D;
+    color: #000000;
 }
 .shop-subtitulo {
-    color: #ddd;
+    color: rgb(0, 0, 0);
 }
 
 .shop-contenedor-formulario {
@@ -16,30 +16,34 @@
     align-items: center;
     flex-direction: column;
     margin-top: 2rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 2rem;
     padding: 3rem;
     min-width: 40vw;
     border-radius: .7rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
+
 .shop-item {
     min-width: 30vw;
     margin: .7rem;
     padding: .7rem;
     border-radius: .6rem;
-    border: solid 1px #4DA07D;
+    border: solid 1px #7a7e81;
 }
 
 .shop-btn {
     padding: .6rem 1.4rem;
-    border: solid 1px #4DA07D;
+    border: solid 1px #7a7e81;
     border-radius: .6rem;
-    background-color: #20313d;
-    color: #4DA07D;
+    background-color: #d8d8d8;
+    color: #7a7e81;
     margin-top: .5rem;
 }
 .shop-btn:hover {
-    background-color: #4DA07D;
-    color: #20313d;
+    background-color: #7a7e81;
+    color: #ffffff;
     transition: .6s;
 }

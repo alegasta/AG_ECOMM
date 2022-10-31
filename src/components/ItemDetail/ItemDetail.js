@@ -18,7 +18,7 @@ const ItemDetail = ({info}) => {
   return (
     <div className='row container mx-auto my-4'>
         <div className='col-md-6 my-auto'>
-            <img src={info.img} alt={info.producto} className='img-fluid' />
+            <img src={info.imagen} alt={info.producto} className='img-fluid' />
         </div>
         <div className='col-md-6 my-auto'>
             <h3 className='text-uppercase'>{info.producto}</h3>
@@ -26,6 +26,7 @@ const ItemDetail = ({info}) => {
             <div className='lista-detalle'>
                 <p>Marca: {info.marca}</p>
                 <p>Modelo: {info.modelo}</p>
+                <p>Color: {info.color}</p>
                 <p>Stock: {info.stock}</p>
                 <h5 className='precio-detalle'>Precio: ${info.precio}</h5>
             </div>

@@ -3,7 +3,7 @@ import CartWidget from '../../components/CartWidget/CartWidget'
 import './home.css'
 import { Link } from 'react-router-dom'
 import ItemListContainer from '../../components/ItemListContainer/ItemListContainer'
-import Carousel from 'react-bootstrap/Carousel';
+
 
 const Productos = () => {
   return (
@@ -12,7 +12,7 @@ const Productos = () => {
           <div className='row'>
             
             <div className='col-md-6 my-auto'>
-              <h1 className=' home-titulo'>SANMAR</h1>
+              <h1 className=' home-titulo'>SANMAR®</h1>
               
               <Link to='/contact' className='home-link'>
                 

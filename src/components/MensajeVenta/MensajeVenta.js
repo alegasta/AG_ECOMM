@@ -9,12 +9,13 @@ const MensajeVenta = ({mensaje}) => {
         title: 'Compra exitosa!',
         text: `El id de tu compra es: ${mensaje} `,
         icon: 'success',
+        confirmButtonColor: '#7a7e81',
         confirmButtonText: 'Cerrar'
     })
       return (
     <div className='contenedor-btn-volver-home'>
       <Link to='/' className='text-decoration-none'>
-        <button className='volver-home-btn'>Volver a la página inicial!</button>
+        <button className='volver-home-btn'>Volver a la página inicial</button>
       </Link>
     </div>
   )

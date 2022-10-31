@@ -5,14 +5,10 @@ import { BsEnvelope } from 'react-icons/bs'
 const Contact = () => {
   return (
     <div>
-        <h1 className='contacto-titulo'>Contacto</h1>
-        <p className='contacto-parrafo'>Lorem</p>
-        <ul className='container contacto-lista'>
-          <li className='contacto-elemento-lista'>Lorem</li>
-          <li className='contacto-elemento-lista'>Lorem</li>
-          <li className='contacto-elemento-lista'>lorem</li>
-        </ul>
-        <p>Lorem</p>
+        <h1 className='contacto-titulo'>Formulario de contacto</h1>
+        <p className='contacto-parrafo'>Si tienes interés en conseguir precios mayoristas déjanos tus datos para ponernos en contacto</p>
+        
+        
         <div>
           <div className='container'>
             <form className='contacto-formulario'>

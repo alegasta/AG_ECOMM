@@ -31,7 +31,7 @@ const BarraNavegacion = () => {
                                 <Link to='/categoria/ropa' className='link-navbar'>Ropa</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to='/categoria/accesorios' className='link-navbar'>Accesorios</Link>
+                                <Link to='/categoria/deco' className='link-navbar'>Deco</Link>
                             </NavDropdown.Item>
                         </NavDropdown>
                         
